@@ -18,8 +18,8 @@ LOCAL_PATH := vendor/samsung/msm8916-common
 
 # Qcom
 PRODUCT_COPY_FILES += \
-	$(LOCAL_PATH)/proprietarybin/qcom-system-daemon:system/bin/qcom-system-daemon \
-	$(LOCAL_PATH)/proprietarybin/qseecomd:system/bin/qseecomd \
+	$(LOCAL_PATH)/proprietary/bin/qcom-system-daemon:system/bin/qcom-system-daemon \
+	$(LOCAL_PATH)/proprietary/bin/qseecomd:system/bin/qseecomd \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
